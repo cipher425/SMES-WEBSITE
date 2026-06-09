@@ -12,7 +12,7 @@ import Team from './pages/Team';
 import Gallery from './pages/Gallery';
 
 
-import RegistrationPage from './pages/RegistrationPage'; // 1. Import your new page
+import RegistrationPage from './pages/RegistrationPage'; // 
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
           
           <Route path="/contact" element={<Contact />} />
           
-          {/* 2. Add the registration route here */}
+          
           <Route path="/register" element={<RegistrationPage />} />
         </Routes>
       </main>
